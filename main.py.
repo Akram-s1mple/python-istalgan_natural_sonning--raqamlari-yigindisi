@@ -1,0 +1,8 @@
+son = 162
+yigindi = 0
+
+while son > 0:
+    yigindi += son % 10
+    son //= 10
+
+print(yigindi)
